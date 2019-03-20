@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Stylish Portfolio v5.0.3 (https://startbootstrap.com/template-overviews/stylish-portfolio)
- * Copyright 2013-2019
+ * Copyright 2013-2019 
  * Licensed under  (https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/blob/master/LICENSE)
  */
 
@@ -256,8 +256,6 @@ h6 {
 .portfolio-item .caption .caption-content {
   color: #fff;
   margin: auto 2rem 2rem;
-  display: none;
-
 }
 
 .portfolio-item .caption .caption-content h2 {
@@ -298,15 +296,9 @@ h6 {
   }
   .portfolio-item:hover .caption {
     background-color: rgba(29, 128, 159, 0.9);
-
-
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
   }
-  .portfolio-item:hover .caption .caption-content {
-    display:block;
-  }
-
 }
 
 footer.footer {
